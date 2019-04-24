@@ -14,6 +14,11 @@ struct RoomType {
     var shortName: String
     var price: Int
     
+    static var all = [
+        RoomType(id: 0, name: "Two Queens", shortName: "2Q", price: 249),
+        RoomType(id: 1, name: "One King", shortName: "OK", price: 349),
+        RoomType(id: 2, name: "Penthouse Suite", shortName: "PHS", price: 499),
+    ]
 }
 
 
